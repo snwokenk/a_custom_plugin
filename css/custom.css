@@ -1,0 +1,56 @@
+/*
+
+[Custom Stylesheet]
+
+Project     : Creartly - A Collaboration Platform For Creatives
+Version     : 1.0
+Author      : Samuel K Nwokenkwo
+Author URI  : https://themeforest.net/user/themelooks
+
+You can write your custom css styles in this file...
+
+*/
+
+
+#gen_info {
+    cursor: pointer;
+}
+
+.img_of_browse img{
+    width:600px;
+    height:300px;
+}
+
+.img_of_browse_cover img{
+    object-fit: cover;
+}
+
+.padding_non_mobile div{ padding-top: 150px; }
+
+@media only screen and (min-width: 600px ) {
+
+}
+
+
+/* adds a scroll bar to multicheckboxwidget, which is used in places of multiselect widget for
+    many-to-many field
+*/
+.scroll_list {
+    overflow: auto;
+    max-height: 100px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.scroll_list_autocomplete {
+    overflow: scroll;
+    overflow-x: hidden;
+    max-height: 200px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
